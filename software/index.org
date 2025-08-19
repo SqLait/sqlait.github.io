@@ -1,0 +1,7 @@
+#+TITLE: Index
+
+* List of articles
+
+These articles are about software that I either use or have taken notice of.
+
+- [[file:gnu_stow.html][How to use GNU Stow]]

@@ -68,8 +68,7 @@ Here are some notes that might help when reading or navigating this blog.
 :CUSTOM_ID: contributing
 :END:
 
-Feel free to [[https://github.com/8dcc/8dcc.github.io][contribute]] to this blog if you find any errors or if you have any
-suggestions.
+Feel free to [[https://github.com/sqlait/sqlait.github.io][contribute]] to this blog if you find any errors, spelling mistakes or if you have any suggestions.
 
 * License and credits
 :PROPERTIES:
@@ -77,5 +76,4 @@ suggestions.
 :END:
 
 Copyright © 2025 SqLait. All Rights Reserved. The source code and content of this
-website is covered by [[https://opensource.org/license/bsd-3-clause][BSD 3-Clause License] as published by the Open source
-initiative, version 3.
+website is covered by [[https://opensource.org/license/bsd-3-clause][BSD 3-Clause License]].

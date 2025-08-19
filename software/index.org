@@ -1,4 +1,5 @@
 #+TITLE: Index
+#+OPTIONS: toc:nil num:nil
 
 * List of articles
 

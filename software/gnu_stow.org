@@ -24,7 +24,7 @@
    For example:
    .config/i3 could be a symbolic link that actually points to ~/dotfiles/i3/.config/i3
 
-** Symlink? **
+** Symlink?
    As a quick explainer: a symlink is a file that acts as a pointer to another file.
    So when you open the i3 file in .config/i3 it will open the file that is located in ~/dotfiles/i3/.config/i3
 

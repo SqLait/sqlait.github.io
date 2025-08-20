@@ -1,4 +1,4 @@
-#+TITLE: Index
+#+title: Index
 #+OPTIONS: toc:nil num:nil
 #+HTML_HEAD: <link rel="icon" type="image/x-icon" href="img/favicon.png" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -7,6 +7,9 @@
 
 * List of articles
 
-These articles are about software that I either use or have taken notice of.
+These articles are more philosophical in nature, like politics, ideas, issues, etc.
 
-- [[file:gnu_stow.html][How to use GNU Stow]]
+** Top articles
+
+** Articles
+- [[file:politics_as_team-sport.html][Politics Isn’t Policy Anymore — It’s a Team Sport]]

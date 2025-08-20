@@ -1,0 +1,15 @@
+#+TITLE: Politics Isn’t Policy Anymore — It’s a Team Sport
+#+OPTIONS: toc:nil nul:nil
+#+HTML_HEAD: <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/main.css" />
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+
+In our current time and especially since the rise of social media, a shift in political engagement has occurred.
+
+The art of changing thoughts and ideas into plans and policy seems to be changing into a game of capture the flag, where the wins and gains of the parties that compete are praised and celebrated by the followers without critical analysis of their plays.
+
+There are a multitude of factors that come into play why this is happening, but the one reason that sticks out like a sore thumb comes from the media we consume, especially from the source we choose to consume from.
+Platforms like (but certainly not limited to) YouTube, TikTok and Instagram, due to their short form nature have created a way of political engagement that is really superficial, one that doesn't motivate the viewer to seek out for a well evaluated opinion on their own, but rather have a very narrow viewpoint based on emotions.
+
+I'll try to span the topics across multiple subjects and viewpoints, and how it all comes together to aid the overall decline of politics, because this problem is causing issues on multiple fronts at the same time.

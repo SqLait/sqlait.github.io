@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-08-19 Tue 23:41 -->
+<!-- 2025-08-20 Wed 20:02 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Gnu Stow</title>
@@ -192,30 +192,36 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<link rel="icon" type="image/x-icon" href="img/favicon.png" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
-<div id="content" class="content">
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="content" class="content">
 <h1 class="title">Gnu Stow</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org982ff95">1. How to Setup GNU Stow</a></li>
-<li><a href="#orgc6ba3af">2. Woah woah, what&rsquo;s a GNU Stow?</a>
+<li><a href="#orgfd1be91">1. How to Setup GNU Stow</a></li>
+<li><a href="#orgc021edc">2. Woah woah, what&rsquo;s a GNU Stow?</a>
 <ul>
-<li><a href="#orga080679">2.1. Symlink?</a></li>
+<li><a href="#orgdc9c00d">2.1. Symlink?</a></li>
 </ul>
 </li>
-<li><a href="#orgbecc8c5">3. Let&rsquo;s Download Stow</a></li>
-<li><a href="#org25590ef">4. Setting up a Dotfiles Directory</a></li>
-<li><a href="#orgb2d5f8e">5. How to Add Config Files in Stow</a></li>
-<li><a href="#orgabb032e">6. Adding Version Control</a></li>
-<li><a href="#org081c09d">7. Conclusion</a></li>
+<li><a href="#orgacf1c49">3. Let&rsquo;s Download Stow</a></li>
+<li><a href="#org83ae5b1">4. Setting up a Dotfiles Directory</a></li>
+<li><a href="#org7b619fd">5. How to Add Config Files in Stow</a></li>
+<li><a href="#orgc5d2f23">6. Adding Version Control</a></li>
+<li><a href="#org74104e6">7. Conclusion</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org982ff95" class="outline-2">
-<h2 id="org982ff95"><span class="section-number-2">1.</span> How to Setup GNU Stow</h2>
+<div id="outline-container-orgfd1be91" class="outline-2">
+<h2 id="orgfd1be91"><span class="section-number-2">1.</span> How to Setup GNU Stow</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 If there&rsquo;s one UNIX tool that makes managing dotfiles across multiple machines effortless, it&rsquo;s <b><b>GNU Stow</b></b>.
@@ -231,8 +237,8 @@ In this tutorial, I&rsquo;ll help you setup stow for your UNIX systems (Linux, M
 </p>
 </div>
 </div>
-<div id="outline-container-orgc6ba3af" class="outline-2">
-<h2 id="orgc6ba3af"><span class="section-number-2">2.</span> Woah woah, what&rsquo;s a GNU Stow?</h2>
+<div id="outline-container-orgc021edc" class="outline-2">
+<h2 id="orgc021edc"><span class="section-number-2">2.</span> Woah woah, what&rsquo;s a GNU Stow?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 As said by the stow documentation:
@@ -256,8 +262,8 @@ For example:
 .config/i3 could be a symbolic link that actually points to ~/dotfiles/i3/.config/i3
 </p>
 </div>
-<div id="outline-container-orga080679" class="outline-3">
-<h3 id="orga080679"><span class="section-number-3">2.1.</span> Symlink?</h3>
+<div id="outline-container-orgdc9c00d" class="outline-3">
+<h3 id="orgdc9c00d"><span class="section-number-3">2.1.</span> Symlink?</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 As a quick explainer: a symlink is a file that acts as a pointer to another file.
@@ -266,8 +272,8 @@ So when you open the i3 file in .config/i3 it will open the file that is located
 </div>
 </div>
 </div>
-<div id="outline-container-orgbecc8c5" class="outline-2">
-<h2 id="orgbecc8c5"><span class="section-number-2">3.</span> Let&rsquo;s Download Stow</h2>
+<div id="outline-container-orgacf1c49" class="outline-2">
+<h2 id="orgacf1c49"><span class="section-number-2">3.</span> Let&rsquo;s Download Stow</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 Before you start implementing what I&rsquo;ll be showing, it&rsquo;s a good idea to make sure that <b><b>Git</b></b> is installed on your system.
@@ -297,8 +303,8 @@ If everything went alright, you should now have everything you need to continue.
 </p>
 </div>
 </div>
-<div id="outline-container-org25590ef" class="outline-2">
-<h2 id="org25590ef"><span class="section-number-2">4.</span> Setting up a Dotfiles Directory</h2>
+<div id="outline-container-org83ae5b1" class="outline-2">
+<h2 id="org83ae5b1"><span class="section-number-2">4.</span> Setting up a Dotfiles Directory</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 In my experience, stow works best when you symlink from a directory somewhere in your home directory.
@@ -326,8 +332,8 @@ Then create a directory. You can choose what name to give, but for this tutorial
 </div>
 </div>
 </div>
-<div id="outline-container-orgb2d5f8e" class="outline-2">
-<h2 id="orgb2d5f8e"><span class="section-number-2">5.</span> How to Add Config Files in Stow</h2>
+<div id="outline-container-org7b619fd" class="outline-2">
+<h2 id="org7b619fd"><span class="section-number-2">5.</span> How to Add Config Files in Stow</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Stow has a certain way of adding dotfiles that might seem a bit weird, but makes it very easy to work with.
@@ -399,8 +405,8 @@ Not entirely sure? Add a debug message into your config to make sure. If you see
 </div>
 </div>
 </div>
-<div id="outline-container-orgabb032e" class="outline-2">
-<h2 id="orgabb032e"><span class="section-number-2">6.</span> Adding Version Control</h2>
+<div id="outline-container-orgc5d2f23" class="outline-2">
+<h2 id="orgc5d2f23"><span class="section-number-2">6.</span> Adding Version Control</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 This step is by far the most simple.
@@ -440,8 +446,8 @@ In order to save your changes, just use the following commands:
 </div>
 </div>
 </div>
-<div id="outline-container-org081c09d" class="outline-2">
-<h2 id="org081c09d"><span class="section-number-2">7.</span> Conclusion</h2>
+<div id="outline-container-org74104e6" class="outline-2">
+<h2 id="org74104e6"><span class="section-number-2">7.</span> Conclusion</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 GNU Stow might take a bit of time before you really understand it, but that&rsquo;s okay!
@@ -457,7 +463,7 @@ Thank you for following along, and enjoy your newfound vision of the art of dotf
 </div>
 <div id="postamble" class="status">
 <p class="date">Date: 2025-19-08 23:35</p>
-<p class="date">Created: 2025-08-19 Tue 23:41</p>
+<p class="date">Created: 2025-08-20 Wed 20:02</p>
 </div>
 </body>
 </html>

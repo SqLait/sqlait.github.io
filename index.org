@@ -17,7 +17,7 @@ The articles in this blog are spread across the following categories.
 
 - [[file:programming/index.org][Programming]]
 - [[file:reversing/index.org][Reverse engineering]]
-- [[file:politics/index.org][Politics]]
+- [[file:philosophy/index.org][Philosophy]]
 - [[file:software/index.org][Software]]
 - [[file:opinion/index.org][Opinion]]
 - [[file:reference/index.org][Reference]]

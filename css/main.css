@@ -1,7 +1,3 @@
-/*----------------------------------------------------------------------------*
- * Used to modify the styles of org-mode HTML export.                         *
- *----------------------------------------------------------------------------*/
-
 /* Font faces */
 
 @font-face {
@@ -46,11 +42,10 @@
 
 /*----------------------------------------------------------------------------*/
 
-
 body {
     font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
     margin-bottom: 4em;
-    background-color: #32302f;
+    background-color: #282828; /* dark0 */
 }
 
 #content {
@@ -61,18 +56,18 @@ body {
     text-align: center;
     font-size: 80%;
     padding-bottom: 1em;
-    border-bottom: 1px solid #34342c;
+    border-bottom: 1px solid #3c3836; /* dark1 */
 }
 
 h1, h2, h3, h4 {
-    color: #e8d8b0;
+    color: #f2e5bc; /* light0_soft */
 }
 
 hr {
     border: none;
     height: 1px;
-    color: #aaaaaa;
-    background-color: #aaaaaa;
+    color: #928374; /* gray */
+    background-color: #928374; /* gray */
 }
 
 /*----------------------------------------------------------------------------*/
@@ -109,18 +104,18 @@ p sup, li sup, p sub, li sub {
 /*----------------------------------------------------------------------------*/
 
 pre.src {
-    background: #111111;
-    color: white;
-    border: 1px solid #000000;
+    background: #1d2021; /* dark0_hard */
+    color: #fbf1c7; /* light0 */
+    border: 1px solid #3c3836; /* dark1 */
 }
 
 pre.src::before {
     background-color: inherit;
-    color: #888;
+    color: #928374; /* gray */
 }
 
 pre.src .linenr {
-    color: #999;
+    color: #7c6f64; /* dark4 */
     user-select: none;
 }
 
@@ -138,8 +133,8 @@ code {
 /*----------------------------------------------------------------------------*/
 
 a {
-    color: rgb(0, 70, 200);
-    text-decoration-color: rgba(0, 70, 200, 0.2);
+    color: #fabd2f; /* bright_yellow */
+    text-decoration-color: rgba(250, 189, 47, 0.2);
 }
 
 a[href^='#'] {
@@ -147,14 +142,25 @@ a[href^='#'] {
 }
 
 a:hover {
-    text-decoration-color: rgb(0, 70, 200);
+    color: #fe8019; /* bright_orange */
+    text-decoration-color: rgba(254, 128, 25, 0.5);
+}
+
+a:visited {
+    color: #458588; /* neutral_blue */
+    text-decoration-color: rgba(69, 133, 136, 0.5);
+}
+
+a:focus {
+    outline: 2px solid #fabd2f; /* bright_yellow for focus */
+    outline-offset: 2px;
 }
 
 /*----------------------------------------------------------------------------*/
 
 blockquote {
-    background: #F1F1F1;
-    border-left: 5px solid #ccc;
+    background: #3c3836; /* dark1 */
+    border-left: 5px solid #d5c4a1; /* light2 */
     margin: 1.5em;
     padding: 0.5em 1.5em;
 }
@@ -162,7 +168,7 @@ blockquote {
 /*----------------------------------------------------------------------------*/
 
 table {
-    border: solid 1px #dddddd;
+    border: solid 1px #504945; /* dark2 */
     border-collapse: collapse;
     border-spacing: 0;
     margin-top: 1.2em;
@@ -172,14 +178,14 @@ table {
 }
 
 table thead th {
-    background-color: #eeeeee;
-    border: solid 1px #cccccc;
+    background-color: #d5c4a1; /* light2 */
+    border: solid 1px #bdae93; /* light3 */
     padding-left: 10px;
     padding-right: 10px;
 }
 
 table tbody td {
-    border: solid 1px #cccccc;
+    border: solid 1px #bdae93; /* light3 */
 }
 
 /*----------------------------------------------------------------------------*/
@@ -196,11 +202,13 @@ img {
 
 .figure-number, .table-number {
     font-weight: bold;
+    color: #fb4934; /* bright_red */
 }
 
 /*----------------------------------------------------------------------------*/
 
 #footnotes {
     margin-top: 2em;
-    border-top: 1px solid #222;
+    border-top: 1px solid #3c3836; /* dark1 */
 }
+

@@ -1,7 +1,7 @@
 #+title: Index
 #+OPTIONS: toc:nil num:nil
 #+HTML_HEAD: <link rel="icon" type="image/x-icon" href="img/favicon.png" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/main.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/main.css" />
 #+HTML_LINK_UP: ../index.html
 #+HTML_LINK_HOME: ../index.html
 
@@ -13,4 +13,3 @@ These articles are more philosophical in nature, like politics, ideas, issues, e
 
 ** Articles
 - [[file:politics_as_team-sport.html][Politics Isn’t Policy Anymore — It’s a Team Sport]]
-- [[file:test.html][test]]

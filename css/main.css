@@ -45,7 +45,8 @@
 body {
     font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
     margin-bottom: 4em;
-    background-color: #282828; /* dark0 */
+    background-color: #32302f; /* dark0 */
+    color: #f2e5bc
 }
 
 #content {

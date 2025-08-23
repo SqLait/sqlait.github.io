@@ -50,7 +50,7 @@
 body {
     font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
     margin-bottom: 4em;
-    background-color: #FFFFFF;
+    background-color: #32302f;
 }
 
 #content {
@@ -61,11 +61,11 @@ body {
     text-align: center;
     font-size: 80%;
     padding-bottom: 1em;
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid #34342c;
 }
 
 h1, h2, h3, h4 {
-    color: #333333;
+    color: #e8d8b0;
 }
 
 hr {

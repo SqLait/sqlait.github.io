@@ -13,3 +13,4 @@ These articles are more philosophical in nature, like politics, ideas, issues, e
 
 ** Articles
 - [[file:politics_as_team-sport.html][Politics Isn’t Policy Anymore — It’s a Team Sport]]
+- [[file:test.html][test]]

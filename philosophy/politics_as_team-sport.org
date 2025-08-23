@@ -5,11 +5,18 @@
 #+HTML_LINK_UP: index.html
 #+HTML_LINK_HOME: ../index.html
 
-In our current time and especially since the rise of social media, a shift in political engagement has occurred.
+In our current time and especially since the rise of social media, a shift in political interaction has occurred.
 
 The art of changing thoughts and ideas into plans and policy seems to be changing into a game of capture the flag, where the wins and gains of the parties that compete are praised and celebrated by the followers without critical analysis of their plays.
+Political interaction starts to resemble team sport more than democratic discourse. Emotions run high, loyalty trumps logic, and winning is everything. People from different teams are attacked over their believes, rather than being treated like people they're treated like the enemies from within. Unconditional love for your team and supporting their every move, this form of tribalism has taken a nasty presence in the world of politics, and not without it's consequences.
+As I try to understand the root cause of this shift, several factors come into play. However one factor stand out: social media.
+These platforms, used by millions fuel the existing divide amongst the population by injecting hatred, misinformation and distrust into our personalized feeds all in the name of ad revenue.
+And even though not everyone will notice, these platforms are warping the way we think and interact with high level ideas and politics. Changing complex debates into simple battles without leaving much room for nuance or thought.
 
-There are a multitude of factors that come into play why this is happening, but the one reason that sticks out like a sore thumb comes from the media we consume, especially from the source we choose to consume from.
-Platforms like (but certainly not limited to) YouTube, TikTok and Instagram, due to their short form nature have created a way of political engagement that is really superficial, one that doesn't motivate the viewer to seek out for a well evaluated opinion on their own, but rather have a very narrow viewpoint based on emotions.
+* The overall decline in politics
+** Algorithm optimized for sensationalist speaking
 
-I'll try to span the topics across multiple subjects and viewpoints, and how it all comes together to aid the overall decline of politics, because this problem is causing issues on multiple fronts at the same time.
+As I have pointer out in the beginning: political engagement is changing for the worse, with the rise of social media platforms that spread political news and messages in a way that is attractive to the algorithms, but absolutely fails at getting to understand the reasoning behind the person's motives on both sides. Short form content platforms strives on sensationalism, because that is what generates the most clicks and views.
+
+One video I often use to get this point across is an interview of Polish politician Dominik Tarczyński by Cathy Newman. The main lingering question was why Poland (as a nation) hasn't taken any non-western refugees during the European migrant crisis. I don't want you to necessarily focus on the content of the interview, but rather how it's edited, you can watch the video [[https://www.youtube.com/watch?v=lSN7IeHBIsA][here]].
+The first thing to notice is the opening: 'This Polish politician completely DESTROYS this woke interviewer', this line alone already does the trick, playing into this 'us vs. them' mentality.

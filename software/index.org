@@ -9,4 +9,4 @@
 
 These articles are about software that I either use or have taken notice of.
 
-- [[file:gnu_stow.html][How to use GNU Stow]]
+- [[file:gnu_stow.org][How to use GNU Stow]]

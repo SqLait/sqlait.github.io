@@ -142,14 +142,14 @@ a[href^='#'] {
     text-decoration-style: dashed;
 }
 
-a:hover {
+a:hover, a:focus {
     color: #fe8019; /* bright_orange */
     text-decoration-color: rgba(254, 128, 25, 0.5);
 }
 
 a:visited {
-    color: #458588; /* neutral_blue */
-    text-decoration-color: rgba(69, 133, 136, 0.5);
+    color: #fabd2f; /* bright_yellow */
+    text-decoration-color: rgba(250, 189, 47, 0.2); /* same as unvisited */
 }
 
 a:focus {

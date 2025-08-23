@@ -5,11 +5,6 @@
 #+HTML_LINK_UP: ../index.html
 #+HTML_LINK_HOME: ../index.html
 
-* List of articles
+* List of entries
 
-These articles are more philosophical in nature, like politics, ideas, issues, etc.
-
-** Top articles
-
-** Articles
-- [[file:politics_as_team-sport.org][Politics Isn’t Policy Anymore — It’s a Team Sport]]
+A place where I share various personal opinions on different topics.

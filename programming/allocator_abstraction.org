@@ -1,0 +1,6 @@
+#+TITLE: Write your own C allocator abstraction layer
+
+* Introduction
+
+I really like C programming because it gives you a lot of control over memory and how to manage it. This is also one of the main reasons why C is (when done correctly) faster than languages that utilize garbage collection.
+And even though C is really fast, eventually developers would want to optimize memory allocations as well, where instead of using =malloc= for every allocation, they will use custom allocators like =memory pools= or =thread allocators=.

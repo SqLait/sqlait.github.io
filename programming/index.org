@@ -9,4 +9,4 @@
 
 These articles focus mainly on programming, this can range from tutorials to documentation to reviews.
 
-- [[file:gnu_stow.org][How to use GNU Stow]]
+- [[file:allocator_abstraction.org][Write your own C allocator abstraction layer]]

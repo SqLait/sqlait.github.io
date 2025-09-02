@@ -3,4 +3,7 @@
 * Introduction
 
 I really like C programming because it gives you a lot of control over memory and how to manage it. This is also one of the main reasons why C is (when done correctly) faster than languages that utilize garbage collection.
-And even though C is really fast, eventually developers would want to optimize memory allocations as well, where instead of using =malloc= for every allocation, they will use custom allocators like =memory pools= or =thread allocators=.
+Though C is really fast, eventually developers would want to optimize memory allocations as well, where instead of using =malloc= for every allocation, they will use custom allocators like =memory pools= or =thread allocators=.
+
+But now imagine working on a game, you need an enemy that attacks your player. How will you spawn an enemy without the implementation leaning on one type of allocator?
+For a while I was really struggling with this, until I found a live stream by one of my favourite YouTubers [[https://www.youtube.com/@jdh/featured][jdh]] ([[https://www.youtube.com/watch?v=67b18ixEomc&list=PLXVfT_0eTq66k_xLrdBWuZvDe8_UAyK0R][live stream]] here). In there he explained a =Dynlist= (in C++ terminology a std::vector) and when I decided to take a look at the source code of the dynlist implementation I noticed that he was using a structure named =allocator_t=. And at that moment it clicked for me, this was the answer on how to cleanly manage different allocators in C.
